@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3526349a09.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather Dashboard</title>
+  </head>
+  <header>
+    <div class="main-title">
+      <h1>Weather Dashboard</h1>
+    </div>
+  </header>
+  <body>
+     <div class="card">
+      <h2>Search for city:</h2>
+      <div class="search">
+        <input type="text" class="search-bar">
+        <button><i class="fa-solid fa-magnifying-glass-location"></i></button>
+        
+      </div>
+      
+      </div>
+    </div>
+    <div class="container">
+    <div class="weather">
+      <h2>San Francisco</h2>
+      <div id="currentDay" class="text-center">
+        <p>3/1/23</p>
+      </div>
+    </div>
+    <div class="weather-info">
+      <div class="text">Tempeture :</div>
+      <div id="temp">40°F</div>
+      <div class="text">Condition :</div>
+      <div id="condi">Partly Cloudy </div>
+      <div class="text">Humidity :</div>
+      <div id="humidity">45%</div>
+      <div class="text" >Wind Speed :</div>
+      <div id="wind">14 mph</div>
+
+    </div>
+  </div>
+      
+
+    
+    <div class="forecast">
+      <h2>5 day forecast:</h2>
+      <div>
+        <p>Date</p>
+        <p>Weather Condition</p>
+        <p>Temperature</p>
+        <p>Humidity</p>
+      </div>
+    
+   
+      <div id="Monday">
+        <p>Monday</p>
+        <p>Sunny</p>
+        <p>70°F</p>
+        <p>45%</p>
+      </div>
+      
+
+    </div>
+     
+   
+    <script src="script.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js
+"></script>
+
+  </body>
+</html>
